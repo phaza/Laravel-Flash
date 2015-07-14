@@ -23,10 +23,6 @@ This package is a fork of the [Flash Package](https://github.com/laracasts/flash
 First, pull in the package through Composer.
 
 ```js
-"repositories": [{
-    "type": "vcs",
-    "url": "git@gitlab.draperstud.io:Laravel/Alerts.git"
-}],
 "require": {
     "draperstudio/laravel-alerts": "~1.0"
 }
