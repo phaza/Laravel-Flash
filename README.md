@@ -32,14 +32,14 @@ And then include the service provider within `app/config/app.php`.
 
 ```php
 'providers' => [
-    'DraperStudio\Flash\FlashServiceProvider'
+    DraperStudio\Flash\FlashServiceProvider::class
 ];
 ```
 
 If you need to modify the configuration or the views, you can run:
 
 ```bash
-php artisan vendor:publish
+php artisan vendor:publish --provider="DraperStudio\Flash\FlashServiceProvider"
 ```
 
 The package views will now be located in the `app/resources/views/vendor/flash/` directory and the configuration will be located at `app/config/flash.php`.
