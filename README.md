@@ -24,7 +24,7 @@ First, pull in the package through Composer.
 
 ```js
 "require": {
-    "draperstudio/laravel-alerts": "~1.0"
+    "draperstudio/laravel-flash": "~1.0"
 }
 ```
 
