@@ -2,23 +2,23 @@
 
 namespace DraperStudio\Flash;
 
-use DraperStudio\Flash\Contracts\SessionStore;
+use Illuminate\Session\Store;
 
 class FlashNotifier
 {
     /**
      * The session writer.
      *
-     * @var SessionStore
+     * @var Store
      */
     private $session;
 
     /**
      * Create a new flash notifier instance.
      *
-     * @param SessionStore $session
+     * @param Store $session
      */
-    public function __construct(SessionStore $session)
+    public function __construct(Store $session)
     {
         $this->session = $session;
     }
