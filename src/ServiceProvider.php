@@ -2,9 +2,9 @@
 
 namespace DraperStudio\Flash;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as IlluminateProvider;
 
-class FlashServiceProvider extends ServiceProvider
+class ServiceProvider extends IlluminateProvider
 {
     /**
      * Bootstrap the application events.

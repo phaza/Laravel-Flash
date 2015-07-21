@@ -33,9 +33,7 @@ class FlashNotifier
      */
     public function success($message, $title = null)
     {
-        $this->message($message, 'success', $title);
-
-        return $this;
+        return $this->message($message, 'success', $title);
     }
 
     /**
@@ -48,9 +46,7 @@ class FlashNotifier
      */
     public function info($message, $title = null)
     {
-        $this->message($message, 'info', $title);
-
-        return $this;
+        return $this->message($message, 'info', $title);
     }
 
     /**
@@ -63,9 +59,7 @@ class FlashNotifier
      */
     public function warning($message, $title = null)
     {
-        $this->message($message, 'warning', $title);
-
-        return $this;
+        return $this->message($message, 'warning', $title);
     }
 
     /**
@@ -78,9 +72,7 @@ class FlashNotifier
      */
     public function error($message, $title = null)
     {
-        $this->message($message, 'danger', $title);
-
-        return $this;
+        return $this->message($message, 'danger', $title);
     }
 
     /**
@@ -105,9 +97,7 @@ class FlashNotifier
      */
     public function overlay($message, $title = 'Notice')
     {
-        $this->message($message, 'info', $title, true);
-
-        return $this;
+        return $this->message($message, 'info', $title, true);
     }
 
     /**
