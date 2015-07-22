@@ -23,9 +23,7 @@ This package is a fork of the [Flash Package](https://github.com/laracasts/flash
 First, pull in the package through Composer.
 
 ```js
-"require": {
-    "draperstudio/laravel-flash": "~1.0"
-}
+composer require draperstudio/laravel-flash
 ```
 
 And then include the service provider within `app/config/app.php`.
